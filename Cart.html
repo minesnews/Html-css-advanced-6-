@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seo & Digital Marketing Cart Page</title>
     <link rel="stylesheet" href="style/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -16,9 +17,48 @@
             <a href=""><img src="img/find.png" alt=""></a>
         </div>
         <div class="header__rigth">
-            <a class="label" href=""><img src="img/menu.png" alt=""></a>
+            <label for="header__check"><img src="img/menu.png" alt="меню"></label>
             <a href=""><img src="img/user.png" alt=""></a>
             <a href=""><img src="img/basket.png" alt=""></a>
+        </div>
+        <input class="header__checkbox" id="header__check" type="checkbox" checked="">
+        <div class="menu">
+            <h3 class="menu__heading">MENU</h3>
+            <div class="menu__box">
+                <div class="menu__item">
+                    <a href="#" class="menu__title">MAN</a>
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="#">Accessories</a></li>
+                        <li><a class="menu__link" href="#">Bags</a></li>
+                        <li><a class="menu__link" href="#">Denim</a></li>
+                        <li><a class="menu__link" href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="menu__item">
+                    <a href="#" class="menu__title">WOMAN</a>
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="">Accessories</a></li>
+                        <li><a class="menu__link" href="">Jackets &amp; Coats</a></li>
+                        <li><a class="menu__link" href="">Polos</a></li>
+                        <li><a class="menu__link" href="">T-Shirts</a></li>
+                        <li><a class="menu__link" href="">Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="menu__item">
+                    <a href="#" class="menu__title">KIDS</a>
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="">Accessories</a></li>
+                        <li><a class="menu__link" href="">Jackets &amp; Coats</a></li>
+                        <li><a class="menu__link" href="">Polos</a></li>
+                        <li><a class="menu__link" href="">T-Shirts</a></li>
+                        <li><a class="menu__link" href="">Shirts</a></li>
+                        <li><a class="menu__link" href="">Bags</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
         </div>
     </header>
 
@@ -28,14 +68,16 @@
         </div>
     </section>
 
-    <section class="cart-content">
+    <section class="cart-content center">
 
         <div class="cart-content__cart">
             <div class="cart-content__list">
                 <div class="cart-content__card">
                     <img src="img/cart_001.png" alt="">
                     <div class="cart-content__description">
-                        <h2 class="cart-content__title">MANGO PEOPLE T-SHIRT</h2>
+                        <h2 class="cart-content__title">MANGO PEOPLE
+                            <p>T-SHIRT</p>
+                        </h2>
                         <div class="cart-content__textBox">
                             <p class="cart-content__text">
                                 Price:
@@ -70,7 +112,9 @@
                 <div class="cart-content__card">
                     <img src="img/cart_002.png" alt="">
                     <div class="cart-content__description">
-                        <h2 class="cart-content__title">MANGO PEOPLE T-SHIRT</h2>
+                        <h2 class="cart-content__title">MANGO PEOPLE
+                            <p>T-SHIRT</p>
+                        </h2>
                         <div class="cart-content__textBox">
                             <p class="cart-content__text">
                                 Price:
@@ -109,7 +153,7 @@
             </div>
         </div>
 
-        <div class="cart-content__form">
+        <form class="cart-content__form">
             <div class="cart-content__info">
                 <div class="cart-content__info_address">
                     <h5 class="cart-content__info_address-title">SHIPPING ADRESS</h5>
@@ -130,7 +174,7 @@
                 </div>
             </div>
 
-        </div>
+        </form>
 
     </section>
 

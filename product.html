@@ -7,6 +7,7 @@
     <title>Seo & Digital Marketing Landing Page</title>
     <!-- <link rel="stylesheet" href="style/style_product.css"> -->
     <link rel="stylesheet" href="style/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -16,9 +17,48 @@
             <a href=""><img src="img/find.png" alt=""></a>
         </div>
         <div class="header__rigth">
-            <a class="label" href=""><img src="img/menu.png" alt=""></a>
+            <label for="header__check"><img src="img/menu.png" alt="меню"></label>
             <a href=""><img src="img/user.png" alt=""></a>
             <a href=""><img src="img/basket.png" alt=""></a>
+        </div>
+        <input class="header__checkbox" id="header__check" type="checkbox" checked="">
+        <div class="menu">
+            <h3 class="menu__heading">MENU</h3>
+            <div class="menu__box">
+                <div class="menu__item">
+                    <a href="#" class="menu__title">MAN</a>
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="#">Accessories</a></li>
+                        <li><a class="menu__link" href="#">Bags</a></li>
+                        <li><a class="menu__link" href="#">Denim</a></li>
+                        <li><a class="menu__link" href="#">T-Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="menu__item">
+                    <a href="#" class="menu__title">WOMAN</a>
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="">Accessories</a></li>
+                        <li><a class="menu__link" href="">Jackets &amp; Coats</a></li>
+                        <li><a class="menu__link" href="">Polos</a></li>
+                        <li><a class="menu__link" href="">T-Shirts</a></li>
+                        <li><a class="menu__link" href="">Shirts</a></li>
+                    </ul>
+                </div>
+                <div class="menu__item">
+                    <a href="#" class="menu__title">KIDS</a>
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="">Accessories</a></li>
+                        <li><a class="menu__link" href="">Jackets &amp; Coats</a></li>
+                        <li><a class="menu__link" href="">Polos</a></li>
+                        <li><a class="menu__link" href="">T-Shirts</a></li>
+                        <li><a class="menu__link" href="">Shirts</a></li>
+                        <li><a class="menu__link" href="">Bags</a></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
         </div>
     </header>
     <section class="up center">
@@ -36,13 +76,15 @@
         </div>
     </section>
     <main class="main">
-        <div class="main__content center">
+        <div class="main__content">
             <button class="main__content__btn main__content__btn__left">
                 <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.6998 3.7499L4.9498 11.4999L12.6998 19.2499L11.1498 22.3499L0.299805 11.4999L11.1498 0.649902L12.6998 3.7499Z" fill="black"/>
                     </svg>
                 </button>
-            <img src="img/main-product.jpg" alt="" class="main__content__img">
+            <div class="main-product__img__img">
+                <img src="img/main-product.jpg" alt="" class="main__content__img">
+            </div>
             <button class="main__content__btn main__content__btn__rigth">
                     <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.299805 19.2499L8.0498 11.4999L0.299805 3.7499L1.8498 0.649902L12.6998 11.4999L1.8498 22.3499L0.299805 19.2499Z" fill="#F16D7F"/>
