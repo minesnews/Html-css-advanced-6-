@@ -1271,7 +1271,7 @@ summary {
   gap: 28px;
 }
 .registration__li::before {
-  content: url(../img/Vector.svg);
+  content: url(../img/Vector1.svg);
 }
 
 .subscription {
